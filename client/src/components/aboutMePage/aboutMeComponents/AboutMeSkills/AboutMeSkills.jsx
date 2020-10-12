@@ -9,7 +9,7 @@ let AboutMeSkills = () => {
       <BlockTitleText titleclassName={"titleLines titleLines2"} blockTitleText={"my Skills"} />
       <div className="graph">
         <div className="ticks">
-          <p>Jedi</p>
+          <p>Pro</p>
           <p>Ninja</p>
           <p>Geek</p>
           <p>Newbie</p>
@@ -54,7 +54,7 @@ let AboutMeSkills = () => {
               barId={"bar4"}
               barProcent={"85"}
               barText={"Node.js, SQL"}
-              aosDelay="600"
+              aosDelay="450"
             />
           
           </div>

@@ -4,7 +4,6 @@ import "../../../App.css";
 import BlockTitleText from "../../../common/BlockTitle";
 import design from "../img/about-me-design.svg";
 import frontEnd from "../img/about-me-front-end.svg";
-import resume from "../../mainPage/Aimurzayev-Amir-front-end-summary.pdf";
 
 let AboutMeIntro = () => {
   return (
@@ -30,11 +29,7 @@ let AboutMeIntro = () => {
           </p>
         </div>
       </div>
-      <div className="buttonPage">
-        <a href={resume} target="_blank" rel="noopener noreferrer">
-         
-        </a>
-      </div>
+  
     </div>
   );
 };
