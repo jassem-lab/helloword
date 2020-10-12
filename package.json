@@ -7,7 +7,7 @@
     "node": "12.x"
   },
   "scripts": {
-    "build": "npm run build --prefix client",
+  
     "install-client": "npm install --prefix client",
     "heroku-postbuild": "npm run install-client && npm run build",
     "start": "node app.js",
