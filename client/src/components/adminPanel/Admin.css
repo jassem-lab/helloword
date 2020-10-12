@@ -1,0 +1,357 @@
+.signIn {
+  padding: 152px 0 100px 0;
+  margin: 0 auto 100px auto;
+  text-align: center;
+  width: 300px;
+}
+.signIn h1 {
+  padding-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+  font-weight: 400;
+}
+.signIn img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+.signInForm {
+  display: grid;
+  justify-content: space-around;
+  padding: 30px;
+  background-color: #fff;
+  border: 1px solid rgb(121, 117, 117);
+  border-radius: 15px;
+}
+.signInForm input {
+  padding: 10px;
+  width: 230px;
+  height: 30px;
+  font-size: 13px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(184, 178, 178);
+  background-color: #e8f0fe;
+}
+.signInForm button {
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  padding: 8px;
+  font-size: 14px;
+  background-color: #2c974b;
+  color: #fff;
+}
+.signInForm p {
+  text-align: left;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+.panelGrid {
+  padding-top: 92px;
+  display: grid;
+  grid-template-columns: 1fr 4.5fr;
+  border-right: 1px solid #e5e5e5;
+  border-left: 1px solid #e5e5e5;
+}
+.actionsMenu {
+  padding: 30px;
+  border-right: 1px solid #e5e5e5;
+}
+.panelAdmin p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.actionsMenu img {
+  width: 20px;
+  margin-right: 15px;
+}
+.actionsList {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.actionsList li {
+  display: flex;
+  font-size: 14px;
+  flex-direction: row;
+  margin-bottom: 17px;
+  cursor: pointer;
+}
+.workSpace {
+  margin-bottom: 30px;
+}
+.panelBlock {
+  padding-left: 15px;
+  margin-top: 15px;
+}
+.panelBlock h2 {
+  font-size: 17px;
+  font-weight: 500;
+  padding: 15px 0 15px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+.panelItems {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 30px;
+  justify-content: space-around;
+}
+.panelItem {
+  position: relative;
+  display: inline-block;
+  border: 1px solid #e5e5e5;
+  border-radius: 17px;
+  width: 250px;
+  cursor: pointer;
+  overflow: hidden;
+  text-align: center;
+}
+.panelItem img {
+  height: 150px;
+  padding-bottom: 20px;
+}
+.panelItem p {
+  position: absolute;
+  display: block;
+  bottom: 15px;
+  left: 20px;
+  background-color: #fff;
+}
+.adminNavLink {
+  text-decoration: none;
+  color: #000;
+}
+.editTitlesInput {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+.editTitlesInput input {
+  font-weight: normal;
+  font-size: 18px;
+  width: 200px;
+  text-align: center;
+}
+.editTitlesInput textarea {
+  font-weight: normal;
+  font-size: 18px;
+  margin-top: 20px;
+  padding: 5px 0 0 20px;
+  width: 800px;
+}
+.editInput {
+  display: flex;
+  justify-items: center;
+  margin-top: 30px;
+  font-weight: normal;
+  font-size: 18px;
+  color: #6b6a6a;
+}
+.editInput textarea {
+  font-weight: normal;
+  font-size: 18px;
+  color: #6b6a6a;
+  max-width: 160px;
+  padding: 3px 0 3px 15px;
+}
+.editInput label {
+  padding-top: 4px;
+  margin-right: 5px;
+}
+.editInput button {
+  font-weight: normal;
+  font-size: 18px;
+  color: #6b6a6a;
+  padding: 0;
+  width: 50px;
+}
+.editInput input {
+  max-width: 160px;
+  font-weight: normal;
+  font-size: 18px;
+  color: #6b6a6a;
+  padding: 3px 0 3px 15px;
+}
+.articleBlockTitle input {
+  max-width: unset;
+  width: 600px;
+  margin-right: 30px;
+}
+.articleBlockMargin {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+.articleBlockAdditionalData {
+  margin-top: 20px;
+}
+.editFontStyle {
+  font-weight: normal;
+  font-size: 18px;
+  color: #6b6a6a;
+}
+.blockTextArea {
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  padding: 15px;
+  width: 100%;
+}
+.hideInput {
+  display: none;
+}
+.editFontStyle select {
+  font-weight: normal;
+  font-size: 18px;
+  color: #6b6a6a;
+}
+.editInput input[type="color"] {
+  margin-right: 20px;
+}
+.editOverviewDataInput input {
+  max-width: 260px;
+}
+.editTextStyles {
+  display: grid;
+  justify-items: left;
+}
+.editInput input[type="color"] {
+  -webkit-appearance: none;
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  padding: 0;
+}
+.editInput input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+.editInput input[type="color"]::-webkit-color-swatch {
+  border: none;
+  border-radius: 100%;
+}
+.editAboutProject {
+  display: flex;
+  justify-items: center;
+  width: 100%;
+}
+.editAboutProject textarea {
+  width: 100%;
+  font-weight: normal;
+  font-size: 18px;
+  color: #6b6a6a;
+  padding: 8px 0 0 15px;
+}
+.editAboutProject button {
+  font-weight: normal;
+  font-size: 18px;
+  color: #6b6a6a;
+  width: 50px;
+  padding: 0;
+}
+.imgInput {
+  margin-top: 0;
+}
+#workPhoto,
+#workBackground,
+#workPreview {
+  display: none;
+}
+
+.workIntroEdit {
+  padding-top: 115px;
+}
+.workIntroEditColumn {
+  display: grid;
+  grid-row-gap: 10px;
+}
+.workIntroTextEdit {
+  text-align: center;
+  max-width: 675px;
+  color: #fff;
+}
+
+.whiteBtn button {
+  margin-top: 20px;
+  color: #fff;
+  border: 1.5px solid #fff;
+}
+
+.filePondWorks {
+  margin-top: 30px;
+}
+.editImgData {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+.editImageDataTitle {
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.filePondArea {
+  display: flex;
+  justify-content: space-between;
+}
+.filePondArea .buttonPage {
+  max-height: 76px;
+}
+.filepond--wrapper {
+  width: 100%;
+}
+/* feedbacks menu block */
+
+.feedbacks {
+  display: grid;
+  padding-top: 100px;
+  text-align: center;
+}
+
+/* articles work space */
+.newArticleBlock {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  padding: 150px 0 100px 0;
+}
+.newArticleBlockImg img {
+  width: 100%;
+}
+.articlesSpace {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.articlesSpace h1 {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: normal;
+}
+.createArticleMainInfoForm {
+  display: flex;
+  flex-direction: column;
+}
+.createArticleMainInfoForm input {
+  margin-bottom: 20px;
+  font-size: 18px;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.createArticleMainInfoForm textarea {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.UpdateLatestArticleData {
+  padding-top: 130px;
+}

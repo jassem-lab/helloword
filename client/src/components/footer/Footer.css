@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+.footer {
+  height: 466px;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.logoFooter {
+  margin-bottom: 22px;
+}
+.footer p {
+  margin-top: 21px;
+  font-weight: normal;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
+.footerSocial {
+  margin-top: 21px;
+  display: flex;
+  align-items: flex-start;
+}
+.footerSocial a {
+  margin-right: 30px;
+}
+.footerSocial a:last-child {
+  margin-right: 0px;
+  padding-top: 3px;
+}
+.footerNav {
+  height: 20px;
+}
+.navLinks {
+  display: flex;
+  list-style-type: none;
+  height: 100%;
+  align-items: center;
+}
+.navLinks hr {
+  display: none;
+}
+.navItem {
+  position: relative;
+  margin-right: 40px;
+}
+.navItem:last-of-type {
+  margin-right: 0px;
+}
+.navItemLink {
+  padding: 40px 5px ;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 18px;
+  color: #fff;
+}
+.navItem :before {
+  position: absolute;
+  left: -5px;
+  content: "[";
+  animation: navhover1-out 0.3s ease-out forwards;
+}
+.navItem :after {
+  position: absolute;
+  right: -5px;
+  content: "]";
+  animation: navhover2-out 0.3s ease-out forwards;
+}
+.navItem :hover:before {
+  animation: navhover1 0.3s ease-out forwards;
+}
+.navItem :hover:after {
+  animation: navhover2 0.3s ease-out forwards;
+}
+@keyframes navhover1 {
+    from {
+      left: 50%;
+    }
+    to {
+      left: -5px;
+    }
+  }
+  @keyframes navhover1-out {
+    from {
+      left: -5px;
+    }
+    to {
+      left: 50%;
+      opacity: 0;
+    }
+  }
+  
+  @keyframes navhover2 {
+    from {
+      right: 50%;
+    }
+    to {
+      right: -5px;
+    }
+  }
+  @keyframes navhover2-out {
+    from {
+      right: -5px;
+    }
+    to {
+      right: 50%;
+      opacity: 0;
+    }
+  }
+  
+  .logo{
+    height: 9vh;
+    width: 9vh;
+   }

@@ -1,0 +1,6 @@
+{
+  "port": 5000,
+  "jwtSecret": "jassem portfolio mern",
+  "mongoURI": "mongodb+srv://jassem:20550248@cluster0.ahxu3.mongodb.net/cluster0?retryWrites=true&w=majority"
+}
+ 
