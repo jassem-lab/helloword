@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Updating personal portfolio using nodejs + react + redux + mongodb + express ",
   "main": "app.js",
+  "engines": {
+    "node": "12.x"
+  },
   "scripts": {
     "build": "npm run build --prefix client",
     "install-client": "npm install --prefix client",
